@@ -21,7 +21,7 @@ public class ContarOcurrencias {
         }
 
         String aux = contador == 1 ? "vez" : "veces";
-        String mensaje = contador > 0 ? "El carácter (" + caracterBuscado + ") aparece " + contador + " " + aux : "El carácter (" + caracterBuscado + ") no aparece en la frase";
+        String mensaje = contador > 0 ? "El caracter (" + caracterBuscado + ") aparece " + contador + " " + aux : "El caracter (" + caracterBuscado + ") no aparece en la frase";
         System.out.println(mensaje);
     }
 }

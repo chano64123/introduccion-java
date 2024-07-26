@@ -7,7 +7,7 @@ public class RellenandoArreglo {
 
         System.out.print("Ingresa el tamaño del arreglo: ");
         int tamano = sc.nextInt();
-        System.out.print("Ingresa el número para rellenar el arreglo: ");
+        System.out.print("Ingresa el numero para rellenar el arreglo: ");
         int numero = sc.nextInt();
         sc.close();
 

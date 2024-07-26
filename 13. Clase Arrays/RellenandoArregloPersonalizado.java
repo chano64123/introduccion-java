@@ -18,13 +18,13 @@ public class RellenandoArregloPersonalizado {
         int ultimoIndice = 0;
 
         while (true) {
-            System.out.print("Ingresa el número para rellenar el arreglo: ");
+            System.out.print("Ingresa el numero para rellenar el arreglo: ");
             int numero = sc.nextInt();
-            System.out.print("Ingresa el índice hasta el cual desea rellenar el arreglo: ");
+            System.out.print("Ingresa el indice hasta el cual desea rellenar el arreglo: ");
             int indice = sc.nextInt();
 
             if (indice >= tamano || indice < ultimoIndice) {
-                System.out.println("Índice no válido.");
+                System.out.println("Indice no valido.");
             } else {
                 Arrays.fill(arreglo, ultimoIndice, indice + 1, numero);
                 ultimoIndice = indice;
