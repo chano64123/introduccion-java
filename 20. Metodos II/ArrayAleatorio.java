@@ -16,7 +16,7 @@ public class ArrayAleatorio {
             maximo = PedirNumero("Ingrese valor maximo: ");
             correcto = maximo >= minimo;
             if (!correcto) {
-                System.out.println("El valor mínimo no puede ser mayor que el valor máximo.");
+                System.out.println("El valor minimo no puede ser mayor que el valor maximo.");
             }
         } while (!correcto);
 
