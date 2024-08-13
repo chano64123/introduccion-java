@@ -121,15 +121,15 @@ public class ManipulandoOraciones {
                                 if (palabraNueva.matches("[a-zA-ZáéíóúÁÉÍÓÚüÜñÑ ]+")) {
                                     break;
                                 } else {
-                                    System.out.println("La nueva palabra o frase solo debe contener letras y espacios. Inténtelo de nuevo.");
+                                    System.out.println("La nueva palabra o frase solo debe contener letras y espacios. Intentelo de nuevo.");
                                 }
                             }
                             System.out.println("Oracion antigua: " + oracion);
                             oracion = oracion.replace(palabraCambiar, palabraNueva);
-                            System.out.println("La nueva oración es: " + oracion);
+                            System.out.println("La nueva oracion es: " + oracion);
                             break;
                         } else {
-                            System.out.println("La palabra \"" + palabraCambiar + "\" no fue encontrada en la oracion. Inténtelo de nuevo.");
+                            System.out.println("La palabra \"" + palabraCambiar + "\" no fue encontrada en la oracion. Intentelo de nuevo.");
                         }
                     }
                 }

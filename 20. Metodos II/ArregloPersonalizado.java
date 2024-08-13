@@ -50,11 +50,11 @@ public class ArregloPersonalizado {
 
     private static boolean EsPosicionValida(int posicionHasta, int cantidad, int posicionAnterior) {
         if (posicionHasta >= cantidad) {
-            System.out.println("Posición fuera del rango del array.");
+            System.out.println("Posicion fuera del rango del array.");
             return false;
         }
         if (posicionHasta <= posicionAnterior) {
-            System.out.println("Ingrese una posición mayor, ya está ocupado hasta la posición " + posicionAnterior);
+            System.out.println("Ingrese una posicion mayor, ya esta ocupado hasta la posicion " + posicionAnterior);
             return false;
         }
         return true;

@@ -29,7 +29,7 @@ public class RegistroAlumnos {
                 opcion = sc.nextInt();
                 System.out.println();
             } catch (InputMismatchException e) {
-                System.out.println("\nIngrese una opción valida.\n");
+                System.out.println("\nIngrese una opcion valida.\n");
                 sc.next();
                 continue;
             }
